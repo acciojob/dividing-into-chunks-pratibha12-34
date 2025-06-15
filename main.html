@@ -1,16 +1,43 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Divide Into Chunks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input, button {
+            margin-top: 10px;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+    <h2>Divide Array into Chunks (Max Sum N)</h2>
+
+    <input type="text" id="arrayInput" placeholder="Enter numbers (e.g. 1,2,3,4)">
+    <input type="number" id="maxSum" placeholder="Enter max sum (n)">
+    <button onclick="handleDivide()">Divide</button>
+
+    <div id="output"></div>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
